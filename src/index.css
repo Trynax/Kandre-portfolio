@@ -2,8 +2,9 @@
 @import "tailwindcss";
 
 @theme {
-    --font-playfair: "Playfair", ""; 
+    --font-playfair: "Playfair", "sans-serif"; 
     --color-gray:#71717A;
+    --color-bgGray:#18181B1A;
   }
 
 
