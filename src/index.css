@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --font-playfair: "Playfair", ""; 
+    --color-gray:#71717A;
+  }
+
+
+body{
+    font-family: "Playfair", sans-serif;
+}
