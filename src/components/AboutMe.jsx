@@ -39,12 +39,12 @@ export default function AboutMe() {
               principles, ensuring that every product I create not only looks good but 
               also provides exceptional usability.
             </p>
-            <p className="mb-4 text-gray-600">
+            <p className="mb-4 text-gray">
               Throughout my career, I've collaborated with 7 different platforms, across 
               various industries, helping them transform their digital products and achieve 
               their business goals through thoughtful design.
             </p>
-            <p className="text-gray-600">
+            <p className="text-gray">
               When I'm not designing, you can find me exploring new design trends, learning 
               new tools, or contributing to design communities. I believe that continuous 
               learning and staying curious are essential for growth as a designer.
@@ -54,42 +54,42 @@ export default function AboutMe() {
           {/* Contact Info */}
           <div className="space-y-4 grid md:grid-cols-2 gap-10">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-bgGray rounded-full flex items-center justify-center">
               <i className="fa-solid fa-location-dot"></i>
               </div>
               <div>
                 <div className="font-medium">Location</div>
-                <div className="text-gray-500">Nigeria</div>
+                <div className="text-gray">Nigeria</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-bgGray rounded-full flex items-center justify-center">
               <i className="fa-solid fa-phone"></i>
               </div>
               <div>
                 <div className="font-medium">Phone</div>
-                <div className="text-gray-500">+234 905 999 5284</div>
+                <div className="text-gray">+234 905 999 5284</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-bgGray rounded-full flex items-center justify-center">
               <i class="fa-solid fa-envelope"></i>
               </div>
               <div>
                 <div className="font-medium">Email</div>
-                <div className="text-gray-500">acoewuyi22@gmail.com</div>
+                <div className="text-gray">acoewuyi22@gmail.com</div>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-bgGray rounded-full flex items-center justify-center">
                 <img src={honor} alt="" />
               </div>
               <div>
                 <div className="font-medium">Experience</div>
-                <div className="text-gray-500">2 years</div>
+                <div className="text-gray">2 years</div>
               </div>
             </div>
           </div>
@@ -106,9 +106,9 @@ export default function AboutMe() {
                     <span>{skill.name}</span>
                     <span>{skill.percentage}%</span>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5">
+                  <div className="w-full bg-bgGray rounded-full h-2.5">
                     <div 
-                      className="bg-gray-800 h-2.5 rounded-full" 
+                      className="bg-[#18181B] h-2.5 rounded-full" 
                       style={{ width: `${skill.percentage}%` }}
                     />
                   </div>
@@ -122,7 +122,7 @@ export default function AboutMe() {
             <h2 className="text-2xl font-bold mb-6">Tools I Use</h2>
             <div className="flex flex-wrap gap-3">
               {tools.map((tool) => (
-                <div key={tool} className="bg-gray-100 px-4 py-2 rounded-md">
+                <div key={tool} className="bg-bgGray px-4 py-2 rounded-md">
                   {tool}
                 </div>
               ))}
