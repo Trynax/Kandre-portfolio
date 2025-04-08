@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header className='flex justify-between items-center px-6 lg:px-20 py-4'>
+    <header className='flex justify-between items-center px-6 lg:px-20 py-4 fixed bg-white z-50 top-0 right-0 left-0'>
       <h1 className='text-3xl md:text-5xl font-playfair font-semibold'>Portfolio.</h1>
 
       <nav className='hidden md:flex gap-10 md:gap-20 items-center text-gray text-lg '>
